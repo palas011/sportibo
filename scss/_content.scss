@@ -1,0 +1,65 @@
+//general
+article {
+    padding: 1rem;
+}
+
+    
+.tituloPrincipal{
+    font-family: $fontMain2;
+    text-align: center;
+    padding: 1rem;
+    color: $bg-succes;
+}
+
+.breadcrum__bg{
+    background-color: $bg-white;
+}
+
+  //BT WHATSAPP
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color: $bg-white;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+  }
+//SERVICIOS 
+
+
+//NOSOTROS
+.bloque__texto{
+    background-color: $bg-dark;
+    opacity: 0.4;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: $bg-white;
+}
+.contenedor{
+    margin: $marginCentro;
+    width: $w-75;
+} 
+    .contenedor__bgimagen{
+        background-image: url(../media/wall_seccion_nosotros.jpg);
+    }     
+    .contenedor__section{
+        margin: $marginCentro;       
+    }
+
+//FIN NOSOTROS
+
+//TRABAJOS
+.tituloPrincipal{
+  color: $bg-white;   
+}
+
+//CARDS
+.bg__cards{
+    background-color: $bg-grey ;
+}
+
